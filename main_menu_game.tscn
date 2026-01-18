@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://nc57ebsgl6np"]
+
+[node name="Main-Menu-Game" type="Node2D"]
+
+[node name="Button Manager" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Start" type="Button" parent="Button Manager"]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 100.0
+offset_right = 750.0
+offset_bottom = 200.0
+text = "Start"
+
+[node name="Options" type="Button" parent="Button Manager"]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 250.0
+offset_right = 750.0
+offset_bottom = 350.0
+text = "Options"
+
+[node name="Quit" type="Button" parent="Button Manager"]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 400.0
+offset_right = 750.0
+offset_bottom = 500.0
+text = "Quit"
